@@ -4,17 +4,15 @@ runtime:
   nodePool: dynamic__x86_64__Ubuntu_14_04__c4_large
   
 scala:
-  - 2.9.3
-  - 2.10.7
   - 2.11.12
-  - 2.12.4
+  - 2.12.5
 
 jdk:
   - openjdk7
   - openjdk8
   - openjdk9
   - oraclejdk8
-  - oraclejdk9
+  - oraclejdk10
     
 build:
 
