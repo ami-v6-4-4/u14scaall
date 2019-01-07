@@ -15,7 +15,11 @@ jdk:
   - oraclejdk10
     
 build:
-
+  pre_ci_boot:
+    image_name: drydock/u14scaall
+    image_tag: v6.4.4
+    pull: true
+    
   ci:
     - java -version
     - echo $SHIPPABLE_SCALA_VERSION
